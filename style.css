@@ -107,8 +107,7 @@ button, .inverted {
 .main {
     background-color: rgb(213, 213, 213);
     flex: 1;
-    max-width: 50%;
-    max-height: 50%;
+    width: 200px;
 }
 
 .title {
