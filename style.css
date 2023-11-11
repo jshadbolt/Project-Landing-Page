@@ -110,6 +110,10 @@ button, .inverted {
     width: 200px;
 }
 
+a:hover {
+    color: #e5e7eb;
+}
+
 .title {
     display: flex;
     justify-content: center;
