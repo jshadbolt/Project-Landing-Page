@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 100px;
+    padding: 0 200px;
     background-color: #1f2937;
     height: 50px;
     color:#e5e7eb;
@@ -24,10 +24,12 @@ body {
 .footer {
     /* display: flex; */
     justify-content: center;
+    padding: 50px;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     color: #f9faf8;
 }
 
@@ -39,39 +41,39 @@ ul {
     list-style-type: none;
 }
 
+.blue {
+    background-color: #3882f6;
+}
+
 button, .inverted {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    background-color: #3882f6;
     width: 150px;
     height: 40px;
     border-radius: 10px;
-    background: blue;
     text-align: center;
     border-style: none;
     color: white;
-    font-weight: bold;
+    font-size: 18px;
 }
 
 .inverted {
     border: 5px solid white;
-    /* background: none; */
-
 }
 
 .section {
     display: flex;
-    padding: 0 100px;
+    padding: 0 200px;
     flex-grow: 1;
 }
 
 .one {
     background-color: #1f2937;
-    padding: 100px 100px;
+    padding: 100px 200px;
 }
 
 .two {
     flex-direction: column;
+    padding: 0 200px;
 }
 
 .three {
@@ -84,7 +86,7 @@ button, .inverted {
 
 .four {
     display: flex;
-    padding: 100px
+    padding: 100px 200px;
 }
 
 .left {
@@ -92,64 +94,102 @@ button, .inverted {
     flex-direction: column;
     flex: 1;
     gap: 10px;
-    padding: 10px;
+    padding: 0 30px 0 0;
+    justify-content: space-evenly;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
 }
 
 .main {
-    background-color: aqua;
-    height: 300px;
+    background-color: rgb(213, 213, 213);
     flex: 1;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 .title {
     display: flex;
     justify-content: center;
-    font-size: 30px;
-    padding: 30px;
+    padding: 60px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    /* NEED to add extra bold family here */
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
+    justify-content: center;
+    margin: 0 0px 120px;
     gap: 50px;
-    flex-wrap: wrap;
 }
 
 .card {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+    text-align: center;
 }
 
 .pic {
-    height: 200px;
-    width: 200px;
-    background-color: violet;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border: 5px solid #3882f6;
+    background-color: rgb(247 247 247);
     border-radius: 20px;
+
 }
 
-.quote {
-    background-color: purple;
-    font-size: 48px;
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
     font-style: italic;
+    padding: 10px;
 }
 
 .sub {
-    background-color: red;
     display: flex;
     align-self: flex-end;
+    padding: 5px;
+    color: #1f2937;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .modal {
-    background: blue;
     height: 150px;
     /* min-width: 100px; */
     flex: 1;
     display: flex;
     align-items: center;
-    padding: 0 100px;
+    padding: 100px 100px;
+    border-radius: 10px;
     
 }
+
+.subtext {
+    font-size: 18px;
+    color: #a7a9ac;
+}
+
+.subtext.dark {
+    color: #1f2937;
+}
+
+.subtext.light {
+    color: #ffffff;
+}
+
+.subtext.light.large {
+    font-size: 22px;
+
+}
+
